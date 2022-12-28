@@ -1,0 +1,62 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+li{
+    list-style: none;
+    justify-content: center;
+
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+    margin-bottom: 20px ;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+view {
+    color: blue;
+  }
+button{
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.title{
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 25px;
+    font-style: bold;
+
+}
+
+.delete{
+    background-color: red;
+    color: aliceblue;
+    box-shadow: 30px bold black;
+}
+
+.edit{
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 30px bold black;
+}
+
+.view{
+    background-color: lightgrey;
+}
